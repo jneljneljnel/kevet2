@@ -1,0 +1,17 @@
+//curl -H "Content-Type: application/json" -X POST -d "{\"hello\":\"hello world\"}" https://kevet.herokuapp.com/event
+
+curl -H "Content-Type: application/json" -X POST -d "{\"hello\":\"hello world\"}" http://localhost:3000/event
+
+
+
+//connect
+curl -H "Content-Type: application/json" -X POST -d "{\"pword\":\"kevet\", \"id\":10}" http://localhost:3000/connect
+
+
+
+//locked
+curl -H "Content-Type: application/json" -X POST -d "{\"pword\":\"kevet\", \"id\":10}" http://localhost:3000/locked
+
+
+//open
+curl -H "Content-Type: application/json" -X POST -d "{\"pword\":\"kevet\", \"id\":10}" http://localhost:3000/open
